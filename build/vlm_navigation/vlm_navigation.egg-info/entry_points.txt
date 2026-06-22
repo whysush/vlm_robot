@@ -1,0 +1,3 @@
+[console_scripts]
+object_goal_nav = vlm_navigation.object_goal_nav:main
+
