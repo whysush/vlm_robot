@@ -1,0 +1,33 @@
+[0.009s] Invoking command in '/home/sushanth/vlm_ws/build/vlm_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/sushanth/vlm_ws/build/vlm_description -- -j8 -l8
+[0.036s] Invoked command in '/home/sushanth/vlm_ws/build/vlm_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/sushanth/vlm_ws/build/vlm_description -- -j8 -l8
+[0.043s] Invoking command in '/home/sushanth/vlm_ws/build/vlm_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/sushanth/vlm_ws/build/vlm_description
+[0.048s] -- Install configuration: ""
+[0.048s] -- Up-to-date: /home/sushanth/vlm_ws/install/vlm_description/share/vlm_description/launch
+[0.048s] -- Up-to-date: /home/sushanth/vlm_ws/install/vlm_description/share/vlm_description/launch/gazebo.launch.py
+[0.048s] -- Up-to-date: /home/sushanth/vlm_ws/install/vlm_description/share/vlm_description/urdf
+[0.048s] -- Up-to-date: /home/sushanth/vlm_ws/install/vlm_description/share/vlm_description/urdf/robot.urdf.xacro
+[0.048s] -- Up-to-date: /home/sushanth/vlm_ws/install/vlm_description/share/vlm_description/urdf/robot.gazebo.xacro
+[0.048s] -- Up-to-date: /home/sushanth/vlm_ws/install/vlm_description/share/vlm_description/worlds
+[0.048s] -- Installing: /home/sushanth/vlm_ws/install/vlm_description/share/vlm_description/worlds/world.sdf
+[0.049s] -- Up-to-date: /home/sushanth/vlm_ws/install/vlm_description/share/vlm_description/config
+[0.049s] -- Up-to-date: /home/sushanth/vlm_ws/install/vlm_description/share/vlm_description/config/bridge.yaml
+[0.049s] -- Up-to-date: /home/sushanth/vlm_ws/install/vlm_description/share/vlm_description/rviz
+[0.049s] -- Up-to-date: /home/sushanth/vlm_ws/install/vlm_description/share/vlm_description/rviz/robot.rviz
+[0.049s] -- Up-to-date: /home/sushanth/vlm_ws/install/vlm_description/share/vlm_description/meshes
+[0.049s] -- Up-to-date: /home/sushanth/vlm_ws/install/vlm_description/share/vlm_description/meshes/.gitkeep
+[0.049s] -- Up-to-date: /home/sushanth/vlm_ws/install/vlm_description/share/ament_index/resource_index/package_run_dependencies/vlm_description
+[0.049s] -- Up-to-date: /home/sushanth/vlm_ws/install/vlm_description/share/ament_index/resource_index/parent_prefix_path/vlm_description
+[0.049s] -- Up-to-date: /home/sushanth/vlm_ws/install/vlm_description/share/vlm_description/environment/ament_prefix_path.sh
+[0.049s] -- Up-to-date: /home/sushanth/vlm_ws/install/vlm_description/share/vlm_description/environment/ament_prefix_path.dsv
+[0.049s] -- Up-to-date: /home/sushanth/vlm_ws/install/vlm_description/share/vlm_description/environment/path.sh
+[0.049s] -- Up-to-date: /home/sushanth/vlm_ws/install/vlm_description/share/vlm_description/environment/path.dsv
+[0.049s] -- Up-to-date: /home/sushanth/vlm_ws/install/vlm_description/share/vlm_description/local_setup.bash
+[0.049s] -- Up-to-date: /home/sushanth/vlm_ws/install/vlm_description/share/vlm_description/local_setup.sh
+[0.049s] -- Up-to-date: /home/sushanth/vlm_ws/install/vlm_description/share/vlm_description/local_setup.zsh
+[0.049s] -- Up-to-date: /home/sushanth/vlm_ws/install/vlm_description/share/vlm_description/local_setup.dsv
+[0.049s] -- Up-to-date: /home/sushanth/vlm_ws/install/vlm_description/share/vlm_description/package.dsv
+[0.049s] -- Up-to-date: /home/sushanth/vlm_ws/install/vlm_description/share/ament_index/resource_index/packages/vlm_description
+[0.049s] -- Up-to-date: /home/sushanth/vlm_ws/install/vlm_description/share/vlm_description/cmake/vlm_descriptionConfig.cmake
+[0.049s] -- Up-to-date: /home/sushanth/vlm_ws/install/vlm_description/share/vlm_description/cmake/vlm_descriptionConfig-version.cmake
+[0.049s] -- Up-to-date: /home/sushanth/vlm_ws/install/vlm_description/share/vlm_description/package.xml
+[0.050s] Invoked command in '/home/sushanth/vlm_ws/build/vlm_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/sushanth/vlm_ws/build/vlm_description

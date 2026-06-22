@@ -1,0 +1,20 @@
+running egg_info
+writing ../../build/vlm_navigation/vlm_navigation.egg-info/PKG-INFO
+writing dependency_links to ../../build/vlm_navigation/vlm_navigation.egg-info/dependency_links.txt
+writing entry points to ../../build/vlm_navigation/vlm_navigation.egg-info/entry_points.txt
+writing requirements to ../../build/vlm_navigation/vlm_navigation.egg-info/requires.txt
+writing top-level names to ../../build/vlm_navigation/vlm_navigation.egg-info/top_level.txt
+reading manifest file '../../build/vlm_navigation/vlm_navigation.egg-info/SOURCES.txt'
+writing manifest file '../../build/vlm_navigation/vlm_navigation.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+running install_data
+copying launch/bringup.launch.py -> /home/sushanth/vlm_ws/install/vlm_navigation/share/vlm_navigation/launch
+running install_egg_info
+removing '/home/sushanth/vlm_ws/install/vlm_navigation/lib/python3.10/site-packages/vlm_navigation-0.1.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/vlm_navigation/vlm_navigation.egg-info to /home/sushanth/vlm_ws/install/vlm_navigation/lib/python3.10/site-packages/vlm_navigation-0.1.0-py3.10.egg-info
+running install_scripts
+Installing object_goal_nav script to /home/sushanth/vlm_ws/install/vlm_navigation/lib/vlm_navigation
+writing list of installed files to '/home/sushanth/vlm_ws/build/vlm_navigation/install.log'

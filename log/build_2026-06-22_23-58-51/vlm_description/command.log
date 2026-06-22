@@ -1,0 +1,6 @@
+Invoking command in '/home/sushanth/vlm_ws/build/vlm_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/sushanth/vlm_ws/src/vlm_description -DCMAKE_INSTALL_PREFIX=/home/sushanth/vlm_ws/install/vlm_description
+Invoked command in '/home/sushanth/vlm_ws/build/vlm_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/sushanth/vlm_ws/src/vlm_description -DCMAKE_INSTALL_PREFIX=/home/sushanth/vlm_ws/install/vlm_description
+Invoking command in '/home/sushanth/vlm_ws/build/vlm_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/sushanth/vlm_ws/build/vlm_description -- -j8 -l8
+Invoked command in '/home/sushanth/vlm_ws/build/vlm_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/sushanth/vlm_ws/build/vlm_description -- -j8 -l8
+Invoking command in '/home/sushanth/vlm_ws/build/vlm_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/sushanth/vlm_ws/build/vlm_description
+Invoked command in '/home/sushanth/vlm_ws/build/vlm_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/sushanth/vlm_ws/build/vlm_description

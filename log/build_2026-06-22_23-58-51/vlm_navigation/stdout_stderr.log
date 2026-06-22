@@ -1,0 +1,47 @@
+running egg_info
+creating ../../build/vlm_navigation/vlm_navigation.egg-info
+writing ../../build/vlm_navigation/vlm_navigation.egg-info/PKG-INFO
+writing dependency_links to ../../build/vlm_navigation/vlm_navigation.egg-info/dependency_links.txt
+writing entry points to ../../build/vlm_navigation/vlm_navigation.egg-info/entry_points.txt
+writing requirements to ../../build/vlm_navigation/vlm_navigation.egg-info/requires.txt
+writing top-level names to ../../build/vlm_navigation/vlm_navigation.egg-info/top_level.txt
+writing manifest file '../../build/vlm_navigation/vlm_navigation.egg-info/SOURCES.txt'
+reading manifest file '../../build/vlm_navigation/vlm_navigation.egg-info/SOURCES.txt'
+writing manifest file '../../build/vlm_navigation/vlm_navigation.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/sushanth/vlm_ws/build/vlm_navigation/build
+creating /home/sushanth/vlm_ws/build/vlm_navigation/build/lib
+creating /home/sushanth/vlm_ws/build/vlm_navigation/build/lib/vlm_navigation
+copying vlm_navigation/object_goal_nav.py -> /home/sushanth/vlm_ws/build/vlm_navigation/build/lib/vlm_navigation
+copying vlm_navigation/vlm_detector.py -> /home/sushanth/vlm_ws/build/vlm_navigation/build/lib/vlm_navigation
+copying vlm_navigation/__init__.py -> /home/sushanth/vlm_ws/build/vlm_navigation/build/lib/vlm_navigation
+running install
+running install_lib
+creating /home/sushanth/vlm_ws/install/vlm_navigation/lib/python3.10/site-packages/vlm_navigation
+copying /home/sushanth/vlm_ws/build/vlm_navigation/build/lib/vlm_navigation/object_goal_nav.py -> /home/sushanth/vlm_ws/install/vlm_navigation/lib/python3.10/site-packages/vlm_navigation
+copying /home/sushanth/vlm_ws/build/vlm_navigation/build/lib/vlm_navigation/vlm_detector.py -> /home/sushanth/vlm_ws/install/vlm_navigation/lib/python3.10/site-packages/vlm_navigation
+copying /home/sushanth/vlm_ws/build/vlm_navigation/build/lib/vlm_navigation/__init__.py -> /home/sushanth/vlm_ws/install/vlm_navigation/lib/python3.10/site-packages/vlm_navigation
+byte-compiling /home/sushanth/vlm_ws/install/vlm_navigation/lib/python3.10/site-packages/vlm_navigation/object_goal_nav.py to object_goal_nav.cpython-310.pyc
+byte-compiling /home/sushanth/vlm_ws/install/vlm_navigation/lib/python3.10/site-packages/vlm_navigation/vlm_detector.py to vlm_detector.cpython-310.pyc
+byte-compiling /home/sushanth/vlm_ws/install/vlm_navigation/lib/python3.10/site-packages/vlm_navigation/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/sushanth/vlm_ws/install/vlm_navigation/share/ament_index
+creating /home/sushanth/vlm_ws/install/vlm_navigation/share/ament_index/resource_index
+creating /home/sushanth/vlm_ws/install/vlm_navigation/share/ament_index/resource_index/packages
+copying resource/vlm_navigation -> /home/sushanth/vlm_ws/install/vlm_navigation/share/ament_index/resource_index/packages
+copying package.xml -> /home/sushanth/vlm_ws/install/vlm_navigation/share/vlm_navigation
+creating /home/sushanth/vlm_ws/install/vlm_navigation/share/vlm_navigation/launch
+copying launch/nav2.launch.py -> /home/sushanth/vlm_ws/install/vlm_navigation/share/vlm_navigation/launch
+copying launch/slam.launch.py -> /home/sushanth/vlm_ws/install/vlm_navigation/share/vlm_navigation/launch
+creating /home/sushanth/vlm_ws/install/vlm_navigation/share/vlm_navigation/config
+copying config/nav2_params.yaml -> /home/sushanth/vlm_ws/install/vlm_navigation/share/vlm_navigation/config
+copying config/slam_toolbox.yaml -> /home/sushanth/vlm_ws/install/vlm_navigation/share/vlm_navigation/config
+creating /home/sushanth/vlm_ws/install/vlm_navigation/share/vlm_navigation/maps
+copying maps/map.yaml -> /home/sushanth/vlm_ws/install/vlm_navigation/share/vlm_navigation/maps
+copying maps/map.pgm -> /home/sushanth/vlm_ws/install/vlm_navigation/share/vlm_navigation/maps
+running install_egg_info
+Copying ../../build/vlm_navigation/vlm_navigation.egg-info to /home/sushanth/vlm_ws/install/vlm_navigation/lib/python3.10/site-packages/vlm_navigation-0.1.0-py3.10.egg-info
+running install_scripts
+Installing object_goal_nav script to /home/sushanth/vlm_ws/install/vlm_navigation/lib/vlm_navigation
+writing list of installed files to '/home/sushanth/vlm_ws/build/vlm_navigation/install.log'

@@ -1,0 +1,22 @@
+[0.581s] Invoking command in '/home/sushanth/vlm_ws/src/vlm_navigation': PYTHONPATH=/home/sushanth/vlm_ws/build/vlm_navigation/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sushanth/vlm_ws/install/vlm_navigation/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/vlm_navigation build --build-base /home/sushanth/vlm_ws/build/vlm_navigation/build install --record /home/sushanth/vlm_ws/build/vlm_navigation/install.log --single-version-externally-managed install_data
+[0.798s] running egg_info
+[0.798s] writing ../../build/vlm_navigation/vlm_navigation.egg-info/PKG-INFO
+[0.798s] writing dependency_links to ../../build/vlm_navigation/vlm_navigation.egg-info/dependency_links.txt
+[0.798s] writing entry points to ../../build/vlm_navigation/vlm_navigation.egg-info/entry_points.txt
+[0.798s] writing requirements to ../../build/vlm_navigation/vlm_navigation.egg-info/requires.txt
+[0.799s] writing top-level names to ../../build/vlm_navigation/vlm_navigation.egg-info/top_level.txt
+[0.800s] reading manifest file '../../build/vlm_navigation/vlm_navigation.egg-info/SOURCES.txt'
+[0.800s] writing manifest file '../../build/vlm_navigation/vlm_navigation.egg-info/SOURCES.txt'
+[0.800s] running build
+[0.800s] running build_py
+[0.800s] running install
+[0.801s] running install_lib
+[0.801s] running install_data
+[0.802s] copying launch/bringup.launch.py -> /home/sushanth/vlm_ws/install/vlm_navigation/share/vlm_navigation/launch
+[0.802s] running install_egg_info
+[0.803s] removing '/home/sushanth/vlm_ws/install/vlm_navigation/lib/python3.10/site-packages/vlm_navigation-0.1.0-py3.10.egg-info' (and everything under it)
+[0.803s] Copying ../../build/vlm_navigation/vlm_navigation.egg-info to /home/sushanth/vlm_ws/install/vlm_navigation/lib/python3.10/site-packages/vlm_navigation-0.1.0-py3.10.egg-info
+[0.804s] running install_scripts
+[0.821s] Installing object_goal_nav script to /home/sushanth/vlm_ws/install/vlm_navigation/lib/vlm_navigation
+[0.821s] writing list of installed files to '/home/sushanth/vlm_ws/build/vlm_navigation/install.log'
+[0.844s] Invoked command in '/home/sushanth/vlm_ws/src/vlm_navigation' returned '0': PYTHONPATH=/home/sushanth/vlm_ws/build/vlm_navigation/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sushanth/vlm_ws/install/vlm_navigation/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/vlm_navigation build --build-base /home/sushanth/vlm_ws/build/vlm_navigation/build install --record /home/sushanth/vlm_ws/build/vlm_navigation/install.log --single-version-externally-managed install_data

@@ -1,0 +1,49 @@
+[0.502s] Invoking command in '/home/sushanth/vlm_ws/src/vlm_navigation': PYTHONPATH=/home/sushanth/vlm_ws/build/vlm_navigation/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sushanth/vlm_ws/install/vlm_navigation/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/vlm_navigation build --build-base /home/sushanth/vlm_ws/build/vlm_navigation/build install --record /home/sushanth/vlm_ws/build/vlm_navigation/install.log --single-version-externally-managed install_data
+[0.706s] running egg_info
+[0.706s] creating ../../build/vlm_navigation/vlm_navigation.egg-info
+[0.706s] writing ../../build/vlm_navigation/vlm_navigation.egg-info/PKG-INFO
+[0.706s] writing dependency_links to ../../build/vlm_navigation/vlm_navigation.egg-info/dependency_links.txt
+[0.707s] writing entry points to ../../build/vlm_navigation/vlm_navigation.egg-info/entry_points.txt
+[0.707s] writing requirements to ../../build/vlm_navigation/vlm_navigation.egg-info/requires.txt
+[0.707s] writing top-level names to ../../build/vlm_navigation/vlm_navigation.egg-info/top_level.txt
+[0.707s] writing manifest file '../../build/vlm_navigation/vlm_navigation.egg-info/SOURCES.txt'
+[0.708s] reading manifest file '../../build/vlm_navigation/vlm_navigation.egg-info/SOURCES.txt'
+[0.708s] writing manifest file '../../build/vlm_navigation/vlm_navigation.egg-info/SOURCES.txt'
+[0.708s] running build
+[0.708s] running build_py
+[0.708s] creating /home/sushanth/vlm_ws/build/vlm_navigation/build
+[0.709s] creating /home/sushanth/vlm_ws/build/vlm_navigation/build/lib
+[0.709s] creating /home/sushanth/vlm_ws/build/vlm_navigation/build/lib/vlm_navigation
+[0.709s] copying vlm_navigation/object_goal_nav.py -> /home/sushanth/vlm_ws/build/vlm_navigation/build/lib/vlm_navigation
+[0.709s] copying vlm_navigation/vlm_detector.py -> /home/sushanth/vlm_ws/build/vlm_navigation/build/lib/vlm_navigation
+[0.709s] copying vlm_navigation/__init__.py -> /home/sushanth/vlm_ws/build/vlm_navigation/build/lib/vlm_navigation
+[0.709s] running install
+[0.709s] running install_lib
+[0.709s] creating /home/sushanth/vlm_ws/install/vlm_navigation/lib/python3.10/site-packages/vlm_navigation
+[0.709s] copying /home/sushanth/vlm_ws/build/vlm_navigation/build/lib/vlm_navigation/object_goal_nav.py -> /home/sushanth/vlm_ws/install/vlm_navigation/lib/python3.10/site-packages/vlm_navigation
+[0.710s] copying /home/sushanth/vlm_ws/build/vlm_navigation/build/lib/vlm_navigation/vlm_detector.py -> /home/sushanth/vlm_ws/install/vlm_navigation/lib/python3.10/site-packages/vlm_navigation
+[0.710s] copying /home/sushanth/vlm_ws/build/vlm_navigation/build/lib/vlm_navigation/__init__.py -> /home/sushanth/vlm_ws/install/vlm_navigation/lib/python3.10/site-packages/vlm_navigation
+[0.710s] byte-compiling /home/sushanth/vlm_ws/install/vlm_navigation/lib/python3.10/site-packages/vlm_navigation/object_goal_nav.py to object_goal_nav.cpython-310.pyc
+[0.712s] byte-compiling /home/sushanth/vlm_ws/install/vlm_navigation/lib/python3.10/site-packages/vlm_navigation/vlm_detector.py to vlm_detector.cpython-310.pyc
+[0.713s] byte-compiling /home/sushanth/vlm_ws/install/vlm_navigation/lib/python3.10/site-packages/vlm_navigation/__init__.py to __init__.cpython-310.pyc
+[0.713s] running install_data
+[0.713s] creating /home/sushanth/vlm_ws/install/vlm_navigation/share/ament_index
+[0.713s] creating /home/sushanth/vlm_ws/install/vlm_navigation/share/ament_index/resource_index
+[0.713s] creating /home/sushanth/vlm_ws/install/vlm_navigation/share/ament_index/resource_index/packages
+[0.713s] copying resource/vlm_navigation -> /home/sushanth/vlm_ws/install/vlm_navigation/share/ament_index/resource_index/packages
+[0.714s] copying package.xml -> /home/sushanth/vlm_ws/install/vlm_navigation/share/vlm_navigation
+[0.714s] creating /home/sushanth/vlm_ws/install/vlm_navigation/share/vlm_navigation/launch
+[0.714s] copying launch/nav2.launch.py -> /home/sushanth/vlm_ws/install/vlm_navigation/share/vlm_navigation/launch
+[0.714s] copying launch/slam.launch.py -> /home/sushanth/vlm_ws/install/vlm_navigation/share/vlm_navigation/launch
+[0.714s] creating /home/sushanth/vlm_ws/install/vlm_navigation/share/vlm_navigation/config
+[0.714s] copying config/nav2_params.yaml -> /home/sushanth/vlm_ws/install/vlm_navigation/share/vlm_navigation/config
+[0.714s] copying config/slam_toolbox.yaml -> /home/sushanth/vlm_ws/install/vlm_navigation/share/vlm_navigation/config
+[0.714s] creating /home/sushanth/vlm_ws/install/vlm_navigation/share/vlm_navigation/maps
+[0.714s] copying maps/map.yaml -> /home/sushanth/vlm_ws/install/vlm_navigation/share/vlm_navigation/maps
+[0.714s] copying maps/map.pgm -> /home/sushanth/vlm_ws/install/vlm_navigation/share/vlm_navigation/maps
+[0.714s] running install_egg_info
+[0.716s] Copying ../../build/vlm_navigation/vlm_navigation.egg-info to /home/sushanth/vlm_ws/install/vlm_navigation/lib/python3.10/site-packages/vlm_navigation-0.1.0-py3.10.egg-info
+[0.716s] running install_scripts
+[0.731s] Installing object_goal_nav script to /home/sushanth/vlm_ws/install/vlm_navigation/lib/vlm_navigation
+[0.731s] writing list of installed files to '/home/sushanth/vlm_ws/build/vlm_navigation/install.log'
+[0.749s] Invoked command in '/home/sushanth/vlm_ws/src/vlm_navigation' returned '0': PYTHONPATH=/home/sushanth/vlm_ws/build/vlm_navigation/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sushanth/vlm_ws/install/vlm_navigation/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/vlm_navigation build --build-base /home/sushanth/vlm_ws/build/vlm_navigation/build install --record /home/sushanth/vlm_ws/build/vlm_navigation/install.log --single-version-externally-managed install_data
