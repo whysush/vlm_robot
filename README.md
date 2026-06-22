@@ -10,7 +10,7 @@ A diff-drive robot with a 2D lidar and an RGB-D camera runs in a small Gazebo
 world. Everything — including the VLM — runs CPU-only;
 YOLO-World on torch-CPU is ~0.16 s per frame.
 
-**NOTE:** Two model files are missing due to file size constraints. In order to run this project, you need to download those files. You may find them [here](https://drive.google.com/drive/folders/1MYLxP5tOjvTqHSZ6vxf3P_Akh41utirH?usp=drive_link). **The project will not run as intended without the models.**
+**NOTE:** Two model files are missing due to file size constraints. In order to run this project, you need to download those files. You may find them [here](https://drive.google.com/drive/folders/1MYLxP5tOjvTqHSZ6vxf3P_Akh41utirH?usp=drive_link). Place "yolov8s-world.pt" in the parent folder and copy the "/weights" folder entirely, as is. **The project will not run as intended without the models.**
 
 ## How the VLM goal-finding works
 
