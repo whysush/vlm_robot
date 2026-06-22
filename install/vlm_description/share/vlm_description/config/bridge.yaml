@@ -1,0 +1,76 @@
+# ros_gz_bridge config for ros_gz 0.244 (Gazebo Fortress).
+# Message type pairs are version-specific. For this branch the gz side uses the
+# "ignition.msgs.*" type strings. If you ever upgrade ros_gz to a Harmonic-era
+# build, switch these to "gz.msgs.*".
+#
+# Direction: GZ_TO_ROS, ROS_TO_GZ, or BIDIRECTIONAL.
+
+# --- clock: drive ROS time from sim ---
+- ros_topic_name: "/clock"
+  gz_topic_name: "/clock"
+  ros_type_name: "rosgraph_msgs/msg/Clock"
+  gz_type_name: "ignition.msgs.Clock"
+  direction: GZ_TO_ROS
+
+# --- velocity command in ---
+- ros_topic_name: "/cmd_vel"
+  gz_topic_name: "/cmd_vel"
+  ros_type_name: "geometry_msgs/msg/Twist"
+  gz_type_name: "ignition.msgs.Twist"
+  direction: ROS_TO_GZ
+
+# --- wheel odometry out ---
+- ros_topic_name: "/odom"
+  gz_topic_name: "/odom"
+  ros_type_name: "nav_msgs/msg/Odometry"
+  gz_type_name: "ignition.msgs.Odometry"
+  direction: GZ_TO_ROS
+
+# --- TF from DiffDrive (odom->base_footprint) ---
+- ros_topic_name: "/tf"
+  gz_topic_name: "/tf"
+  ros_type_name: "tf2_msgs/msg/TFMessage"
+  gz_type_name: "ignition.msgs.Pose_V"
+  direction: GZ_TO_ROS
+
+# --- joint states (wheels). On ros_gz 0.244 this maps to ignition.msgs.Model ---
+- ros_topic_name: "/joint_states"
+  gz_topic_name: "/joint_states"
+  ros_type_name: "sensor_msgs/msg/JointState"
+  gz_type_name: "ignition.msgs.Model"
+  direction: GZ_TO_ROS
+
+# --- 2D lidar ---
+- ros_topic_name: "/scan"
+  gz_topic_name: "/scan"
+  ros_type_name: "sensor_msgs/msg/LaserScan"
+  gz_type_name: "ignition.msgs.LaserScan"
+  direction: GZ_TO_ROS
+
+# --- RGB-D: color image + depth image are handled by ros_gz_image image_bridge
+#     in the launch file, NOT here. Bridging them in BOTH places creates two
+#     publishers on /rgbd/image, which makes RViz's Image display freeze on an
+#     early frame. So color/depth Image entries are intentionally omitted.
+
+# --- RGB-D: color camera_info ---
+- ros_topic_name: "/rgbd/camera_info"
+  gz_topic_name: "/rgbd/camera_info"
+  ros_type_name: "sensor_msgs/msg/CameraInfo"
+  gz_type_name: "ignition.msgs.CameraInfo"
+  direction: GZ_TO_ROS
+
+# --- RGB-D: depth image is bridged by image_bridge (see note above) ---
+
+# --- RGB-D: depth camera_info (same intrinsics as color for rgbd_camera) ---
+- ros_topic_name: "/rgbd/depth/camera_info"
+  gz_topic_name: "/rgbd/depth_image/camera_info"
+  ros_type_name: "sensor_msgs/msg/CameraInfo"
+  gz_type_name: "ignition.msgs.CameraInfo"
+  direction: GZ_TO_ROS
+
+# --- RGB-D: point cloud (optional; heavier on CPU) ---
+- ros_topic_name: "/rgbd/points"
+  gz_topic_name: "/rgbd/points"
+  ros_type_name: "sensor_msgs/msg/PointCloud2"
+  gz_type_name: "ignition.msgs.PointCloudPacked"
+  direction: GZ_TO_ROS
